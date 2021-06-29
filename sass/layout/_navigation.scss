@@ -1,5 +1,5 @@
 .navigation {
-  height: 12rem;
+  height: 9rem;
 
 
   &__nav {
@@ -7,7 +7,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 12rem;
+    height: 9rem;
     background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.7), rgba($color-primary-dark, 0.7)), url(/img/jungle-fog.jpg);
     background-size: cover;
     background-position: 50% 45%;

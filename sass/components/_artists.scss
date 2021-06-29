@@ -1,0 +1,13 @@
+.artists {
+  &__posters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__poster {
+    max-height: 70rem;
+    margin: 2rem;
+    box-shadow: 0 2rem 4rem rgba($color-black, 0.5);
+  }
+}

@@ -153,13 +153,13 @@ body {
     transform: translate(0); } }
 
 .navigation {
-  height: 12rem; }
+  height: 9rem; }
   .navigation__nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 12rem;
+    height: 9rem;
     background-image: linear-gradient(to right bottom, rgba(74, 115, 131, 0.7), rgba(27, 41, 48, 0.7)), url(/img/jungle-fog.jpg);
     background-size: cover;
     background-position: 50% 45%; }
@@ -203,6 +203,9 @@ body {
     .section-stories {
       padding: 10rem 0; } }
 
+.section-artists {
+  padding: 15rem 0; }
+
 .bg-video {
   position: absolute;
   top: 0;
@@ -210,7 +213,7 @@ body {
   height: 100%;
   width: 100%;
   z-index: -3;
-  opacity: .3;
+  opacity: .2;
   overflow: hidden; }
   .bg-video__content {
     height: 100%;
@@ -225,3 +228,13 @@ body {
   width: 100%;
   z-index: -2;
   background-image: linear-gradient(to right bottom, rgba(74, 115, 131, 0.7), rgba(27, 41, 48, 0.7)); }
+
+.artists__posters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.artists__poster {
+  max-height: 70rem;
+  margin: 2rem;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5); }
