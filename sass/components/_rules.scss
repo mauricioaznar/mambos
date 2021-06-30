@@ -1,0 +1,23 @@
+.rules {
+  height: 80vh;
+  background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.5), rgba($color-primary-dark, 0.1)), url(/img/mayan-pyramid.jpg);
+  background-size: cover;
+  background-position: 50% 45%;
+
+
+  &__list {
+    padding: 2rem 4rem;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__item {
+    max-height: 70rem;
+    font-size: 2rem;
+    color: $color-white;
+    margin: 2rem;
+    text-shadow: 0 .2rem .2rem rgba($color-black, 0.5);
+  }
+}

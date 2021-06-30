@@ -1,0 +1,31 @@
+.stories {
+  position: relative;
+  height: calc(100vh - 15rem);
+
+
+
+  &__title-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+
+    &--1 {
+      font-size: 15rem;
+    }
+    &--2 {
+      font-size: 4rem;
+    }
+  }
+
+
+}

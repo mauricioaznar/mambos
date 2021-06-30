@@ -196,15 +196,11 @@ body {
       color: #28444F;
       transform: translateX(1rem); }
 
-.section-stories {
-  position: relative;
-  padding: 15rem 0; }
-  @media only screen and (max-width: 56.25em) {
-    .section-stories {
-      padding: 10rem 0; } }
-
 .section-artists {
-  padding: 15rem 0; }
+  padding: 15rem 0 0 0; }
+
+.section-rules {
+  padding: 15rem 0 0 0; }
 
 .bg-video {
   position: absolute;
@@ -238,3 +234,40 @@ body {
   max-height: 70rem;
   margin: 2rem;
   box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5); }
+
+.rules {
+  height: 80vh;
+  background-image: linear-gradient(to right bottom, rgba(74, 115, 131, 0.5), rgba(27, 41, 48, 0.1)), url(/img/mayan-pyramid.jpg);
+  background-size: cover;
+  background-position: 50% 45%; }
+  .rules__list {
+    padding: 2rem 4rem;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .rules__item {
+    max-height: 70rem;
+    font-size: 2rem;
+    color: #fff;
+    margin: 2rem;
+    text-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.5); }
+
+.stories {
+  position: relative;
+  height: calc(100vh - 15rem); }
+  .stories__title-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .stories__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase; }
+    .stories__title--1 {
+      font-size: 15rem; }
+    .stories__title--2 {
+      font-size: 4rem; }
